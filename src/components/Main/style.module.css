@@ -1,0 +1,85 @@
+.main {
+  width: 100%;
+  height: 500px;
+}
+
+.Category {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+}
+
+.box {
+  width: 98%;
+  height:fit-content;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  gap: 100px;
+}
+
+.subbox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  cursor: pointer;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.subbox1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.subbox:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  z-index: 1; /* Bring the box forward */
+}
+
+.button{
+  width: 100%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  cursor: pointer;
+}
+
+.DownBox{
+  background: linear-gradient(180deg, #1A1E26 0%, #01100B 100%);
+  width: auto;
+  height: 300px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Downtext{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
